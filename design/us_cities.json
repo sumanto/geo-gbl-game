@@ -17,14 +17,7 @@
       "wikipedia": "https://www.wikiwand.com/en/San_Francisco",
       "wikitravel": "https://wikitravel.org/en/San_Francisco",
       "locations": [],
-      "nicknames": {
-        "The Golden City": {},
-        "The Paris of the West": {},
-        "The City by the Bay": {},
-        "‘Frisco": {},
-        "San Fran": {},
-        "SF": {}
-      },
+      "nicknames": [ "The Golden City", "The Paris of the West", "The City by the Bay", "‘Frisco", "San Fran", "SF" ],
       "landmarks": {
         "Golden Gate Bridge": {
           "description": "",
@@ -59,7 +52,8 @@
             "World's last manually operated cable car system."
           ]
         }
-      }
+      },
+      "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
     },
     "nyc": {
       "name": "New York",
@@ -70,20 +64,45 @@
       "nicknames": {
       },
       "landmarks": {
-        "Brooklyn Bridge": {}
-      }
+        "Brooklyn Bridge": {
+          "tidbits": [
+            "World's last manually operated cable car system."
+          ]
+        }
+      },
+      "steal": [ "The Golden Gate Bridge", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
     },
     "washington": {
-      "name": "New York",
+      "name": "Washington",
       "description": "",
       "wikipedia": "",
       "wikitravel": "",
       "locations": [],
-      "nicknames": {
-      },
+      "nicknames": [ "DC", "The American Rome", "The District", "The Federal City", "The Capital of the Free World" ],
       "landmarks": {
-        "The White House": {}
-      }
+        "The White House": {
+          "tidbits": [
+            "World's last manually operated cable car system."
+          ]
+        }
+      },
+      "steal": [ "The White House", "Alcatraz Prison", "Cable Cars", "AT & T Park Stadium", "San Francisco Zoo" ]
+    },
+    "la": {
+      "name": "Los Angeles",
+      "description": "\"Los Angeles\" is the entertainment capital of the world",
+      "wikipedia": "",
+      "wikitravel": "",
+      "locations": [],
+      "nicknames": [ "The Big Orange", "City of Angels", "City of Flowers and Sunshine", "La La Land" ],
+      "landmarks": {
+        "Brooklyn Bridge": {
+          "tidbits": [
+            "World's last manually operated cable car system."
+          ]
+        }
+      },
+      "steal": [ "The Hollywood Sign", "Universal Studios movie lot", "Natural History Museum", "UCLA Campus", "Staples Center Stadium" ]
     }
   }
 }
